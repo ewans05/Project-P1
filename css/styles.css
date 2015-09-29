@@ -1,0 +1,65 @@
+body {
+  font-family: "Lato", sans-serif;
+  color: #747704;
+  font-weight: 300;
+
+}
+
+.text-lite {
+  color: #bcbbbb;
+}
+
+.text-thin {
+  font-weight: 100;
+}
+
+/***HEADER***/
+
+.title-super {
+  font-size: 60px;
+}
+
+.title-logo {
+  margin-top: 20px;
+  height: 100px;
+}
+
+hr {
+  border: solid 2px #bcbbbb;
+}
+
+/***FEATURED WORK SECTION***/
+
+.featured-images {
+  width: 350px;
+  height: 300px;
+}
+
+a {
+  color: #747704;
+}
+
+/***BREAKPOINTS***/
+
+@media screen and (min-width: 769px) and (max-width: 992px) {
+  .title-super {
+    font-size: 50px;
+  }
+
+  .featured-images {
+    height: 200px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .title-super {
+    font-size: 40px;
+  }
+
+  .featured-images {
+    display: block;
+    margin: 0 auto;
+    width: 300px;
+    height: 200px;
+  }
+}
